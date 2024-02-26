@@ -1,0 +1,283 @@
+/* Dummy Styles, only used for mock-up */
+#showswhereheaderis{
+	width:1051px;
+	height: 50px;
+	background-color: rgb(1, 48, 82);
+	border-radius: 10px;
+} 
+.paymentsteps { 
+	background: url('steps.png');
+	width: 225px;
+	height: 42px;
+	display: block;
+	float: right;
+	clear: both;
+	margin: 4px 0 0 0;
+}
+.stepone {
+	 background-position: 0px 0px;
+}
+.steptwo {
+	background-position: 0px -42px;
+}
+.stepthree {
+	background-position: 0px -84px;
+}
+.SecureImage{ 
+	width: 160px;
+	height: 38px;
+	display: block;
+	float: right;
+	clear: both;
+	margin: 4px 0 0 0;
+}
+
+/* text spans and form elements */
+a {
+	color: #388886;
+	text-decoration: none;
+}
+a:hover {
+	color: #245956;
+	text-decoration: none;
+}
+.formheader h2 { 
+	font-family: "Segoe UI";
+	margin: 13px 0 0 0;
+	color: #000000;
+	font-size: 1.2em;
+	float: right;
+	padding-right: 564px;
+}
+.contents h3 {
+	color: #bd615a;
+	font-family: "Segoe UI";
+	font-size: 1.2em;
+	font-weight: 500;
+	margin-bottom: 10px;
+	padding: 0;
+	margin-top :0;
+}
+.info {
+	font-size: .9em;
+	vertical-align:bottom;
+  font-weight: normal;
+}
+.light {
+	font-weight: normal;
+	color: #3d3d3d;
+}
+
+
+
+
+
+.small {
+ 	width: 100px; 
+}
+.medium {
+ 	width: 200px; 
+}
+input[type="checkbox"] {
+-webkit-appearance: checkbox;
+box-sizing: border-box;
+ 	margin: 0;
+}
+
+/* Buttons */
+.btnPrimary {
+	background-color: #0d8a44;
+	border: 0;
+	margin: 8px 6px 0 0;
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 28px;
+	min-width: 42px; 
+	text-align: center;
+	text-decoration: none;
+	white-space: nowrap;
+	vertical-align: inherit;
+	zoom: 1;
+	z-index: 1;
+	float:left; 
+	height:30px;
+	font-family:Microsoft Sans Serif;
+	font-weight:normal;
+}
+.btnPrimary:hover{
+	background-color: #006633;
+}
+.btnPrimary:active{
+	background-color: #07514d;
+}
+.btnSecondary {
+	background-color: #d6d6d6;
+	border: 0;
+	margin: 8px 6px 0 0;
+	color: #3d3d3d;
+	font-size: 14px;
+	line-height: 28px;
+	min-width: 42px; 
+	text-align: center;
+	text-decoration: none;
+	white-space: nowrap;
+	vertical-align: inherit;
+	zoom: 1;
+	z-index: 1;
+	float:left; 
+	height:30px;
+	font-family:Microsoft Sans Serif;
+	font-weight:normal;
+}
+.btnSecondary:hover{
+	background-color: #bbbcbb;
+}
+.btnSecondary:active{
+	background-color: #999999;
+}
+.leftside {
+	width: 220px;
+	padding-top: 20px;
+	display: block;
+	float: left;
+}
+.rightside {
+	width: 800px;
+	display: block;
+	float: left;
+}
+.sbdata {
+	float: left;
+	width: 926px;
+}
+.secureright {
+	float: left;
+	width: 100px;
+}
+.paddingtop2 {
+ 	padding-top: 2px;
+}
+
+/* Framework and standards */
+#container { 
+	width: 1050px;
+	margin: 0;
+	padding: 0;
+	border: 0;  
+	font-family: "Segoe UI";
+	font-weight: 600;
+	font-size: 90%;
+}
+.contents {
+	width: 100%;
+	background-color: #ffffff;
+	border: 1px solid #c0c1bf;
+}
+.block {
+	width: 100%;
+	margin: 0;
+	display: block;
+}
+.secureblock {
+	background-color: #efefef;
+	border-top: 1px solid #c0c1bf;
+	border-bottom: 1px solid #c0c1bf;
+	margin: 0;
+}
+.formheader {
+	background-color: #efefef;
+	border-bottom: 1px solid #c0c1bf;
+	margin: 0;
+	padding: 0 14px 0 0;
+	height: 50px;
+}
+.inset {
+	padding: 10px; 
+}
+.clear {
+	clear: both;
+}
+.topright {
+	display: block;
+	width: 100%;
+	text-align: right;
+}
+.radiogrid {
+	width: 400px;
+	display: block;
+	padding-left: 20px;
+}
+.radiogrid .radiorow {
+	width: 100%;
+	padding-bottom:10px;
+	height: 20px;
+}
+.radiogrid .radiorow .radiocell {
+	padding-bottom:5px;
+	float: left;
+	width: 50%
+}
+.textgrid {
+	width: 100%;
+	display: block;
+	padding-left: 20px;
+}
+
+.textrow .textcell {
+	padding-bottom:5px;
+	width: 50%;
+	float: left;
+	display: block;
+}
+.lefttextlbl { 
+	float: left;
+	width: 184px;
+	text-align: right;
+	padding-right: 16px;
+	padding-top:3px;
+}
+.lefttextinput { 
+	float: left;
+	width: 580px;
+}
+.paddingbottom20 {
+ 	padding-bottom: 20px;
+}
+
+/* changes to css */
+.textrow {
+  	padding-top:6px;
+	width: 820px;
+	padding-bottom:2px;
+	height: 30px;
+  	margin:10px;
+}
+.textbox {
+	height: 20px; 
+	padding: 1px
+}
+/* additions to css */
+label.valid {
+	color: green !important;
+	position: inherit !important;
+}
+label.error {
+	font-weight: bold;
+	color: red;
+	padding: 2px 8px;
+	font-size: 12px;
+	position: absolute;
+	margin-top: -8px;
+}
+.errorborder {
+	border-color:#FFA500;
+	background-color: #FFFFCC;
+	border-style:solid;
+	border-width:1px;
+} 
+.validborder {
+	border-color:#FFA500;
+	background-color: #FFFFCC;
+	border-style:solid;
+	border-width:1px;
+} 

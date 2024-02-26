@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>الدفع باستخدام حساب جاري</title>
+</head>
+<body>
+    
+<form action="" id="ACHform">
+    <div id="showswhereheaderis"></div>
+    <div id="container">
+        <div class="contents">
+    
+            <div class="formheader">
+                <div class="paymentsteps stepone"></div>
+                <h2>الدفع باستخدام حساب جاري</h2>
+            </div>
+    
+            <div class="inset">
+                <div class="topright">رقم الضريبي : <span class="light">234-657-222</span></div>
+    
+                <div class="block paddingbottom20">
+                      <h3>اختر مبلغ الدفع</h3>
+                    <div class="radiogrid">
+                          <div class="radiorow">
+                            <div class="radiocell">
+                                  <input type="radio" name="option"value="NextAmountDue">
+                                  <label for="CurrentAmountDue">المبلغ الحالي المستحق</label>
+                            </div>
+                                  <div class="radiocell paddingtop2"><span class="light">0$</span></div>
+                         </div>
+         
+                          <div class="radiorow">
+                            <div class="radiocell">
+                          <input type="radio" name="option" value="RemainingBalance" />
+                                  <label for="RemainingBalance">الرصيد المتبقي</label>
+                              </div>  
+                                 <div class="radiocell paddingtop2" ><span class="light" id="ctl00_ContentPlaceHolderBody_lblRemainingAmount">0$</span></div>
+                          </div>
+             
+                          <div class="radiorow">
+                               <div class="radiocell">
+                                  <input type="radio" name="otheramount" id="otheramount">
+                                  <label for="otheramount">مبلغ آخر</label>
+                            </div>
+                                  <input type="text" class="textbox small" width="10" name="otheramountvalue">
+                          </div>
+                    </div>     
+                </div>
+                
+                <div class="block">
+                     <h3>أدخل مبلغ الدفع</h3>
+                      <div class="textgrid">
+                        <div class="textrow">
+                            <label for="name" class="lefttextlbl">اسم المدفوع لأمره</label>
+                              <div class="lefttextinput">
+                                  <input type="text" class="textbox medium" name="name"> <span class="info">أدخل الاسم كما يظهر على الشيك<span>
+                             </div>
+                        </div>
+                      
+                           <div class="textrow">
+                            <label class="lefttextlbl">عنوان البريد الإلكتروني</label>
+                              <div class="lefttextinput">
+                                <input type="text" class="textbox medium" name="email" > <span class="info">سنرسل إيصال تأكيد الدفع هنا</span>
+                              </div>
+                        </div>
+                   </div>
+                </div>  
+            </div>
+                   
+            <div class="secureblock">
+                <div class="inset">
+                    <div class="sbdata">
+                        <h3>أدخل معلومات الدفع الآمنة</h3>
+                        <div class="textgrid">
+                            <div class="textrow">
+                                <label class="lefttextlbl">رقم الحساب</label>
+                                <div class="lefttextinput">
+                                    <input type="text" class="textbox medium accountnumber" name="accountnumber"> <a href=""><span class="info"></span></a>
+                                </div>
+                            </div>
+    
+                        <div class="textrow">
+                            <label class="lefttextlbl">تأكيد رقم الحساب</label>
+                              <div class="lefttextinput">
+                                  <input type="text" class="textbox medium" name="accountnumberconfirm"> 
+                             </div>
+                          </div>
+                      
+                        <div class="textrow">
+                            <label class="lefttextlbl">رقم التوجيه</label>
+                              <div class="lefttextinput">
+                                <input type="text" class="textbox medium" name="routingnumber"><a href=""><span class="info"> </span></a>
+                              </div>
+                          </div>                 
+                    </div>
+                </div>
+                      
+                <div class="secureright">
+                    <div class="SecureImage"></div>
+                  </div> 
+                <div class="clear"></div>                
+            </div>
+        </div>
+                             
+                          
+        <div class="inset">           
+            <div class="block">
+                <div class="leftside">
+                    <input type="submit" name="ctl00$ContentPlaceHolderBody$btnSubmit" value="العودة إلى السياسة" class="btnSecondary">    
+                </div>
+                <div class="rightside">
+                    <input type="checkbox" name="paymentauthorization" value="Bike"> أوافق على شروط وأحكام <a href="" class="
